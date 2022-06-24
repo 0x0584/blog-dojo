@@ -1,7 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Oswald:wght@200&family=Roboto+Mono:wght@100&display=swap');
+
+body {
+  background-color: #CA8CE1;
+}
+
 .App {
   text-align: center;
-  background-color: red;
+  
   width: auto;
+  height: auto;
+  
   margin-top: auto;
   margin-bottom: auto;
+}
+
+#blog-header {
+  width: 100%;
+  height: 55px;
+  
+  background-color: #341747;
+}
+
+#blog-title {
+  text-align: left;
+}
+
+#blog-title a {
+  text-decoration: none;
+  font-size: larger;
+
+  color: #7a3b90;
+  border: #CA8CE1;
+  
+  margin-left: 5%;
+  padding: 1%;
+}
+
+#blog-create {
+  text-align: right;
+}
+
+#blog-create a {
+  font-size: larger;
+  text-decoration:none;
+  
+  color: #CA8CE1;
+  background-color: #563861;
+  
+  border-radius: 8px;
+  
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 1%;
+}
+
+.blog-list {
+
+}
+
+.blog-detail {
+  padding-left: 10%;
+  padding-right: 10%;
+  
+  text-align: left;
+}
+
+.blog-detail h2 {
+  font-size: larger;
+
+  padding-bottom: 0%;
+}
+
+.blog-detail a {
+  font-size: large;
+  font-style: italic;
+  text-decoration:none;
+  
+  padding-top: 0%;
+}
+
+.blog-detail {
+
+}
+
+.article p {
+
+}
+
+#blog-title a, #blog-title h2, #blog-create a, .blog-detail h2, .blog-detail p, .article p {
+  /* text-decoration:none; */
+  /* font-family: 'Fascinate', cursive; */
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+}
+
+.article div {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.create label, .create textarea, .create input {
+  text-align: right;
 }
